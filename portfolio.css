@@ -94,6 +94,37 @@ p {
 .project-description {
     padding: 20px 60px;
 }
+.logo {
+    max-height: 40px;
+    font-weight: bold;
+}
+
+nav {
+    padding: 20px ;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+ nav li {
+     display: inline;
+     list-style: none;
+     line-height: 42 px ;
+    margin-left: 15px;
+}
+
+ nav a {
+     text-decoration: none;
+     color:#272142;
+      transition: all 100ms ease-in-out;
+ }
+
+
+ nav a:hover,  nav li.active a {
+     color: var(--branding-color);
+ }
 
 @media (max-width: 991px){
     h1 {
