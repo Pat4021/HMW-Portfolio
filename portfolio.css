@@ -21,6 +21,10 @@ h1 {
 h2 {
     font-size: 64px;
 }
+
+h4 {
+     font-size: 48px;
+}
 p {
     font-weight: normal;
     font-size: 16px; 
@@ -122,12 +126,51 @@ nav ul {
  nav a {
      text-decoration: none;
      color:#272142;
-      transition: all 100ms ease-in-out;
+     transition: all 100ms ease-in-out;
  }
 
 
  nav a:hover,  nav li.active a {
      color: var(--branding-color);
+ }
+
+ footer {
+     margin: 60px 0;
+ }
+
+ footer .contact-box {
+     background:var(--secoundary-color);
+     padding: 30px 60px;
+     border-radius: 10px;
+ }
+ footer .contact-box p {
+     margin: 0;
+ }
+
+ footer .email-link {
+     text-decoration: none;
+     color: black;
+     font-size: 24px;
+     
+ }
+
+ footer .email-link:hover {
+     color: var(--branding-color);
+ }
+
+ footer .social-pic a {
+     margin: 0 20px;
+     color: var(--branding-color);
+     background-color: var(--secoundary-color);
+     padding: 10px 14px;
+     border-radius: 50%;
+     font-size: 18px;
+     transition: all 100ms ease-in-out;
+ }
+
+ footer .social-pic a:hover {
+     color: white;
+     background-color: var(--branding-color);
  }
 
 @media (max-width: 991px){
@@ -139,26 +182,35 @@ nav ul {
     h2 {
         font-size: 42px;
     }
+
+    h4 {
+        font-size: 24px;
+    }
     .hero {
     padding: 80px 20px;
 }
-.content {
+   .content {
     text-align: center;
     padding: 0 ;
 }
-.Pattys-face {
+   .Pattys-face {
     width: 300px;
     border-radius: 20px;
     text-align: center;
 }
-  .project-description {
+   .project-description {
     padding: 0;
     text-align: center;
 }
 
-nav a {
+    nav a {
     font-size: 12px;
 }
+
+    footer .contact-box {
+     padding: 30px;
+     
+ }
 
 }
 
