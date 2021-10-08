@@ -94,6 +94,10 @@ p {
 .project-description {
     padding: 20px 60px;
 }
+
+.p-pic {
+    max-width: 40px;
+}
 .logo {
     max-height: 40px;
     font-weight: bold;
@@ -150,6 +154,10 @@ nav ul {
   .project-description {
     padding: 0;
     text-align: center;
+}
+
+nav a {
+    font-size: 12px;
 }
 
 }
